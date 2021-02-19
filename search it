@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>bolg.in</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+                                                                                                                          
+.navbar {
+  overflow: hidden;
+  background-color: lightblue;
+}
+                                                              
+.navbar a {
+  float: right;
+  display: block;
+  color: lightblue;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+          
+.navbar a.left {
+  float: left;
+}   
+
+                                                                    
+.navbar a:hover {
+  background-color: #ff8000;
+  color: black;
+}
+
+body {
+  font-family: sansaction, Helvetica, sans-serif;
+  background-color: #333;
+  margin: 0;
+}
+
+html {
+   scroll-behaviour: smooth;
+}
+                                                             
+.header {
+  padding: 80px;
+  color: white;
+  text-align: center;
+  background-image: url(pika.jpg);
+  backgroun-repeat: no-repeat;
+  background-position: center;
+}
+                                                                 
+.header h1 {
+  font-size: 50px;
+}    
+                                                                      
+.main {   
+  -ms-flex: 100%;                                                                   
+  flex: 100%;
+  background-image: url(lea.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-color: white;
+  padding: 20px;
+}
+a:link {
+   color: black;
+   font-weight: bold;
+   text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+
+}
+a:active {
+  text-decoration: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  font-weight: bold;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.row {margin: 0 -5px;}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+
+.middle {
+   text-align: center;
+   font-family: courier;
+}
+
+                                                                     
+.footer {
+  padding: 1px;
+  text-align: center;
+  font-size: 15px;
+  background: #f2f2f2;
+
+}
+
+ @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+                                                                          
+@media screen and (max-width: 900px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+                                                                    
+@media screen and (max-width: 300px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> Search It!</h1>
+  <p> Eat &#127836; sleep &#127976; Travel &#9973; </p>
+</div>
+
+<div class="navbar">
+   <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+  <a href="#"><i class="fa fa-fw fa-user"></i> About</a>
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+</div>
+ <div class="main">
+<h2>BOOK NOW!</h2>
+<table>
+  <tr>
+    <th>STAY</th>
+    <th>TRAVEL </th>
+    <th>HUNGRY</th>
+  </tr>
+  <tr>
+    <td><a href="http://www.trivago.in" target="_blank"> &#10148;TRIVAGO </a></td>
+    <td><a href="http://www.olacabs.com" target="_blank"> &#10148; OLA CABS   - CAB</a></td>
+    <td><a href="http://www.swiggy.in" target="_blank"> &#10148; SWIGGY</a></td>
+  </tr>
+  <tr>
+    <td> <a href="http://www.makemytrip.com" target="_blank">  &#10148; MakeMyTrip</a></td>
+    <td> <a href="http://www.makemytrip.com" target="_blank">  &#10148; MakeMyTrip  - ALL</a></td>
+    <td><a href="http://www.zomato.com" target="_blank"> &#10148; ZOMATO</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.oyorooms.com" target="_blank"> &#10148; OYORooms</a></td>
+    <td> <a href="http://www.irctc.co.in" target="_blank"> &#10148; IRCTC  - RAILWAY</a></td>
+    <td><a href="http://www.ubereats.com" target="_blank"> &#10148; UBER EATS</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.agoda.com" target="_blank"> &#10148; AGODA</a></td>
+    <td><a href="http://www.travolook.in" target="_blank"> &#10148; TRAVOLOOK    - FLIGHTS</a></td>
+    <td><a href="http://www.thrillophilia.com" target="_blank"> &#10148; THRILLOPHILIA</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.airbnb.in" target="_blank"> &#10148; Airbnb</a></td>
+    <td><a href="http://www.redbus.com" target="_blank">  &#10148; RED BUS   - BUS </a></td>
+    <td><a href="#">&#10148; SCOOTSY</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.Expedia.com" target="_blank"> &#10148; Expedia</a></td>
+    <td><a href="http://www.uber.com" target="_blank">  &#10148;  UBER CABS    - CABS</a></td>
+    <td><a href="#">&#10148; FOOD PANDA</a></td>
+  </tr>
+</table>
+
+<h3><u>ABOUT</u></h3>
+<p> We provide the best trusted services.</p>
+<p>The best customer rated sevices</p>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-user"></i></p>
+      <h3>11+</h3>
+      <p>Partners</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-check"></i></p>
+      <h3>55+</h3>
+      <p>Projects</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-smile-o"></i></p>
+      <h3>100+</h3>
+      <p>Happy Clients</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-coffee"></i></p>
+      <h3>100+</h3>
+      <p>Meetings</p>
+    </div>
+  </div>
+</div>
+<div class="middle">
+<h2>COMING SOON...</h2>
+</div>
+</div>
+<div class="footer">
+  <h6>powered by &#169; MC</h6>
+    </div>
+
+</body>
+</html>
