@@ -50,7 +50,7 @@ html {
   padding: 80px;
   color: white;
   text-align: center;
-  background-image: url(pika.jpg);
+  background-image: url(buddha.jpg);
   backgroun-repeat: no-repeat;
   background-position: center;
 }
